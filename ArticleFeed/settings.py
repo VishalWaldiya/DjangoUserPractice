@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'account',
     'articles',
     'django_extensions',
+    'crispy_forms',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +143,6 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = reverse_lazy('articles:home')
 LOGOUT_REDIRECT_URL = 'login'
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

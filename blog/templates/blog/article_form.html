@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+  {{form.as_p}}
+  <input class="btn btn-primary" type="button" value="Save" role="button">
+{% endblock content %}
+

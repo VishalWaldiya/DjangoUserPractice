@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h1>{{ object.title }}</h1>
+    <p>{{ object.category }}</p>
+    <p>{{ object.content }}</p>
+    <a href="/article-list">Go back</a>  
+{% endblock content %}
