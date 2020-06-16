@@ -4,10 +4,9 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-  Hi {{ user.username }}!
-  {{session}}
-  <p><a href="{% url 'logout' %}">logout</a></p>
-  <a href="{% url 'account:change_password'%}">Chnage Password</a>
+  <h1>Hi {{ user.username }}!</h1>
+  <h4>Here are few Articles you may like</h4>
+  {% include 'articles/article-list.html' %}
 {% else %}
   <p>You are not logged in</p>
   <div>

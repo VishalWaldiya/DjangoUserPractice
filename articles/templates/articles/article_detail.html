@@ -2,8 +2,17 @@
 
 
 {% block content %}
-    <h1>{{ object.title }}</h1>
+<center>
+    <h1>{{ object.name }}</h1>
+    <div class="pull-right">
+        {{object.UserInfo.username}}
+    </div>
     <p>{{ object.category }}</p>
-    <p>{{ object.content }}</p>
+    <p>{% for tag in  object.clean_tags %}
+        #{{tag}}
+        {% endfor %}
+    </p>
+    <p>{{ object.description }}</p>
     <a href="/article-list">Go back</a>  
+</center>
 {% endblock content %}
