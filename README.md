@@ -34,4 +34,4 @@ Note:
 3. Please stick to the programming nomenclature in case of naming variables, functions etc., Get your code modular.
 4. Feel free to use any front-end/back-end languages, frameworks of your choice for developing this web application. It would be good if you can use some MVC frameworks [PHP Laravel].  
 
-Share your final project file via hosting it in cloud platforms such as Heroku. Also, share your code via GitHub along with deployment instructions by Tuesday 16 June 2020 10:00 PM IST.
+Share your final project file via hosting it in cloud platforms such as Heroku. Also, share your code via GitHub along with deployment instructions.
